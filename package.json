@@ -1,0 +1,19 @@
+{
+  "name": "twitter-clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tweet.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "@types/twit": "^2.2.29",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
