@@ -20,7 +20,8 @@ const T = new Twit({
   const ids = (await fs.readFile("./ids", { encoding: "utf8" }))
     .split("\n")
     .filter((id) => id.length !== 0)
-    .filter((id) => !deletedIds.has(id));
+    .filter((id) => !deletedIds.has(id))
+    .reverse();
 
   for (const id of ids) {
     try {
