@@ -1,6 +1,6 @@
 /tweet.js
 /node_modules/
-/.envrc
+/.env
 /ids
 /deleted_ids
 /dist/
